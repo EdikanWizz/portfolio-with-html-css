@@ -1,0 +1,259 @@
+body{
+    margin: 10PX 0 0 10px;
+}
+#table-container{
+    display: table;
+    width: 100%;
+}
+#table-row{
+    display: table-row;
+    height: 700px;
+    height: 1000px;
+
+}
+#main{
+    display: table-cell;
+    font-family: sans-serif;
+    background-color: aliceblue;
+    margin: 10px 0px 0px 0px;
+    width: 25%;
+    vertical-align: top;
+    position: relative;
+    bottom: 0px;
+}
+#sidebar{
+    display: table-cell;
+    font-family: sans-serif;
+    background-color:gainsboro;
+    width: 75%;
+    vertical-align: top;
+    padding: 0px 20px 0px 10px
+}
+#image1{
+    padding: 20px;
+    height: 120px;
+    width: 120px;
+}
+#port{
+    color: black;
+    width: auto;
+    padding: 8px;
+    border: 1px;
+    padding-left: 30px;
+    margin-top: 4px;
+}
+h2{
+    font-size: 20px;
+    padding-left: 20px;
+}
+#about{
+    color: black;
+    width: auto;
+    padding: 8px;
+    border: 1px;
+    padding-left: 30px;
+    margin-top: 4px
+}
+#contact{
+    color: black;
+    width: auto;
+    padding: 8px;
+    border: 1px;
+    padding-left: 30px;
+    margin-top: 4px;
+}
+#about:hover{
+    background-color: lightslategray;
+}
+#contact:hover{
+    background-color: lightslategray;
+    border: 1px 
+}
+#port:hover{
+    background-color: lightslategray;
+}
+#flex{
+    display: flex;
+    border-bottom: 2px solid black; 
+    padding-bottom: 10px;
+    border-bottom-width: 5px
+}
+#flex1{
+    display: flex
+}
+#all{
+    background-color: black;
+    color: white;
+    padding: 10px 16px 10px 16px;
+    width: auto;
+    border: 1px;
+    margin-right: 5px;
+    margin-left: 12px
+}
+#design{
+    background-color:white;
+    padding: 10px 20px 10px 40px;
+    color: black;
+    width: auto;
+    border: 1px;
+    margin-right: 5px
+}
+#photo{
+    background-color: black;
+    color: white;
+    padding: 10px 20px 10px 40px;
+    width: auto;
+    border: 1px;
+    margin-right: 5px;
+}
+#art{
+    background-color: black;
+    color: white;
+    padding: 10px 20px 10px 20px;
+    width: auto;
+    border: 1px;
+    margin-right: 5px;
+}
+#filter{
+    width: auto;
+    border: 1px;
+    padding: 8px
+}
+#wizzyimg{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: auto;
+    margin-top: 10px;
+    grid-gap: 20px; 
+    background-color: whitesmoke
+}
+#wizzyimg>div{
+    position: relative;
+    width:100%;
+    height: auto;
+}
+#wizzyimg2{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: auto;
+    margin-top: 10px;
+    grid-gap: 20px; 
+    background-color:whitesmoke
+}
+#wizzyimg2>div{
+    position: relative;
+    width: 100%;
+    height: auto;
+
+}
+#lorem{
+    font-size: 15px;
+    padding: 0px 12px 0px 7px
+}
+#lorem15{
+    font-size: 15px;
+    padding:0px 12px 0px 7px 
+}
+#pignation{
+    margin-left: 38%;
+    margin-top: 50px;
+}
+#pignation>a{
+    text-decoration: none;
+    padding: 8px;
+    color: black
+}
+#pignation>a:hover:not(.active){
+    border: 1px solid ;
+    background-color: black;
+    color: white
+}
+.active{
+    color: blue;
+    background-color: black;
+
+}
+.active:hover{
+    background-color: white;
+    border: 1px ridge whitesmoke;
+    color: black;
+}
+#imageaa{
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-top: 10px;
+    width: auto;
+    grid-gap: 20px
+}
+#imageaa>div{
+    width: 100%;
+    height: auto;
+}
+#meter{
+    background-color:lightslategray ;
+    width: 100%
+}
+#meterA{
+    background-color:gray;
+    width: 90%;
+    text-align: center;
+    padding: 5px;
+    color: white
+}
+button{
+    border:1px ridge lightslategray;
+    padding: 10px 25px 10px 25px;
+    text-align: center;
+    color: white;
+    width: auto;
+    background-color: lightslategray;
+    margin: 15px 0 0 0;
+}
+#mainfooter{
+    background-color: dimgrey;
+    max-width: auto;
+    height: 250px;
+    margin-top: 50px;
+    margin-right: -80px;
+    border: 1px solid;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    box-sizing: border-box
+}
+#firstbox{
+    position: relative;
+    width: 100%;
+    height: auto;
+    border: 1px solid ;
+    position: relative;
+    column-width: 100%
+}
+#secondbox{
+    position: relative;
+    width: 100%;
+    height: auto;
+    border: 1px solid ;
+}
+#thirdbox{
+    position: relative;
+    width: 100%;
+    height: auto;
+    border: 1px solid ;
+}
+#mainfooter>div>#p{
+    font-size: 25px;
+    padding: 10px 0px 0px 20px;
+    color: white;
+}
+#imagediv{
+    float: left;
+    width: 50px;
+    height: 50px;
+    border: 1px solid ;
+}
+#text{
+    float: left;
+    width: 50px;
+    height: 50px;
+    border: 1px solid ;
+}
